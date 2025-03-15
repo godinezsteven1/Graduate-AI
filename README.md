@@ -25,3 +25,24 @@ If you are an employer or someone with a legitimate reason to view the code:
 
 ## **Disclaimer**
 This repository follows the guidelines set by my university. If you have any concerns regarding the content or access, feel free to reach out :D
+
+
+## Cloning with Access
+### **Note**
+A private submodule only references the private module, any changes to the private module does not update the reference, I will do my best to update 
+the reference however, for added measure please also run ***Part2*** 
+
+
+Once you have been granted access, you can **clone the repo** and pull the private submodule by running:
+
+```sh
+git clone --recurse-submodules https://github.com/godinezsteven1/Graduate-AI.git
+cd Graduate-AI
+git submodule update --init --recursive
+```
+### **Part2**
+If you already cloned the repository and want to ***get the latest changes from private repo*** run:
+```sh
+cd PGrad-AI
+git pull origin main  # Get the latest updates
+```
