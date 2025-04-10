@@ -36,7 +36,7 @@ Both networks were tasked with classifying Fashion-MNIST images into **10 clothi
 - **Dropout** for preventing overfitting 
 ---
 
-## 🔍 Additional Visualizations (Work in Progress)
+## Additional Visualizations (Work in Progress)
 -  **Kernel visualization** to understand learned features
 -  **Feature maps** showing how the CNN processes images
 -  **Training loss graphs** for convergence tracking
