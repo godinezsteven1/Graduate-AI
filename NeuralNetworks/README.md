@@ -54,16 +54,6 @@ Both networks were tasked with classifying Fashion-MNIST images into **10 clothi
 
 ---
 
-## Reinforcement Learning Add-on – *Escape the Castle*
-
-This repo also includes my implementation of a **Reinforcement Learning** project:
-- Developed a **model-based Monte Carlo approach** for estimating state values
-- Implemented **Q-learning with experience replay**
-- Trained agents to **learn optimal navigation strategies**
-- Achieved average performance of **8669.4373**, exceeding the assignment benchmark of **8600**
-
----
-
 ## Current Work in Progress
 -  Hyperparameter tuning for better accuracy
 -  Visual tools for model interpretability
